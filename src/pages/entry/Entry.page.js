@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Jumbotron } from 'react-bootstrap'
 import LoginForm from '../../components/login/Login.comp'
-import ResetPassword from '../../components/password.reset/PasswordReset.comp'
+import ResetPassword from '../../components/password-reset/PasswordReset.comp'
 
 import './entry.style.css'
 
