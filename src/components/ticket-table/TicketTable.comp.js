@@ -23,7 +23,7 @@ const TicketTable = ({ tickets }) => {
                     </tr>
                 )) :
                     <tr>
-                        <td colSpan="4" classNMW='text-center'>No tickets to show</td>
+                        <td colSpan="4" className='text-center'>No tickets to show</td>
 
                     </tr>
                 }
