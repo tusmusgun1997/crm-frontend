@@ -6,15 +6,15 @@ const DefaultLayout = ({ children }) => {
     return (
 
         <div className="default-layout">
-            <div className="header">
+            <header className="header mb-2">
                 <Header />
-            </div>
+            </header>
             <main className="main">
                 {children}
             </main>
-            <div className="footer">
+            <footer className="footer">
                 <Footer />
-            </div>
+            </footer>
 
 
         </div>
