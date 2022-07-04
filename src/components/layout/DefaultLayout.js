@@ -5,14 +5,14 @@ import Header from './partials/Header.comp'
 const DefaultLayout = ({ children }) => {
     return (
 
-        <div className='default-layout'>
-            <div className='header'>
+        <div className="default-layout">
+            <div className="header">
                 <Header />
             </div>
-            <main className='main'>
+            <main className="main">
                 {children}
             </main>
-            <div className='footer'>
+            <div className="footer">
                 <Footer />
             </div>
 
